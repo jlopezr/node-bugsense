@@ -20,3 +20,8 @@ Then inside your server.js include the following:
 
   throw new Error("Hmmm we crashed!");
 ```
+
+
+This package depends on request:
+
+https://github.com/mikeal/request
