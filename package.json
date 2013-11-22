@@ -1,0 +1,29 @@
+{
+  "name": "node-bugsense",
+  "version": "0.0.1",
+  "author": "Stephen Keep <stephenkeep@gmail.com>",
+  "description": "A node package for the Bugsense API",
+  "contributors": [ 
+    {
+      "name": "Steven Burrows",
+      "email": "steviemburrows@gmail.com"
+    } 
+  ],
+  "main": "./lib/bugsense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephenkeep/node-bugsense.git"
+  },
+  "keywords": [
+    "bugsense",
+    "server"
+  ],
+  "dependencies" : {
+    "request": "~2.27.0"
+  },
+  "analyze": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
